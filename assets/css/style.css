@@ -1,0 +1,121 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        width: 100%;
+        line-height: 25px;
+        font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .wrapper {
+        position: relative;
+    }
+    /* Sidebar */
+    
+    .wrapper .sidebar {
+        width: 23%;
+        height: 100%;
+        position: fixed;
+        background-color: aliceblue;
+        text-align: center;
+    }
+    
+    .wrapper .sidebar img {
+        height: 15vh;
+        border: rgb(228, 199, 199) 3px solid;
+        border-radius: 100%;
+        margin-bottom: 10px;
+        margin-top: 30px;
+        /* margin-left: 35%; */
+    }
+    
+    .wrapper.sidebar h2,
+    h2,
+    h4 {
+        line-height: 35px;
+        /* text-align: center; */
+    }
+    
+    .sidebar h4 {
+        color: rgba(131, 123, 123, 0.4);
+        margin-bottom: 40px;
+    }
+    
+    .sidebar ul {
+        position: relative;
+        height: 100%;
+    }
+    
+    .sidebar ul li {
+        list-style: none;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        border-top: 1px solid rgba(49, 36, 36, 0.1);
+        padding: 15px 0px 15px 0px;
+    }
+    
+    .sidebar ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: medium;
+        font-weight: 550;
+    }
+    
+    .sidebar ul li:hover {
+        background-color: rgba(0, 0, 0, 0.2);
+        border-right: 3px solid #f86045;
+    }
+    
+    .sidebar ul li a:active {
+        color: rgba(54, 50, 50, 0.5);
+        animation-delay: 6ms;
+    }
+    /* Home */
+    
+    .wrapper .home {
+        width: 100%;
+        margin-left: 23%;
+        height: 100vh;
+        position: fixed;
+        background-image: url(/assets/images/home_page_bg_2.jpeg);
+    }
+    
+    .wrapper .home .home-items {
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+    
+    .wrapper .home p,
+    h3 {
+        text-align: center;
+        padding-right: 23%;
+        color: whitesmoke;
+    }
+    
+    .home-items p {
+        padding-top: 10%;
+        margin-bottom: 30px;
+        font-size: 40px;
+        font-weight: 700;
+    }
+    
+    .home-items h3 {
+        color: rgba(238, 220, 220, 0.4);
+        margin-bottom: 2%;
+    }
+    /*.home-items ul {
+        background-color: rgb(46, 46, 33);
+    }*/
+    
+    .home-items ul li {
+        color: whitesmoke;
+        padding: 20px 0px 20px 31%;
+        font-size: large;
+    }
+    
+    ul li span {
+        border-bottom: 2px solid #f86045;
+        margin-right: 2%;
+        font-weight: 600;
+    }
