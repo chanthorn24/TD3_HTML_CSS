@@ -75,10 +75,18 @@
     
     .wrapper .home {
         width: 100%;
-        margin-left: 23%;
+        margin-left: 24.5%;
         height: 100vh;
         position: fixed;
         background-image: url(/assets/images/home_page_bg_2.jpeg);
+    }
+    
+    .home .shadow {
+        background-color: rgba(0, 0, 0, 0.1);
+        position: absolute;
+        height: 100vh;
+        margin-left: -1.5%;
+        width: 1.5%;
     }
     
     .wrapper .home .home-items {
@@ -112,10 +120,11 @@
         color: whitesmoke;
         padding: 20px 0px 20px 31%;
         font-size: large;
+        list-style: none;
     }
     
     ul li span {
-        border-bottom: 2px solid #f86045;
+        border-bottom: 4px solid #f86045;
         margin-right: 2%;
         font-weight: 600;
     }
