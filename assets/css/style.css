@@ -99,13 +99,13 @@
     
     .home .shadow {
         width: 2%;
-        height: 300vh;
+        height: 200vh;
         background-color: rgba(0, 0, 0, 0.1);
         position: absolute;
     }
     
     .home .home-items {
-        padding-left: 12px;
+        padding-left: 14px;
         padding-top: 2%;
     }
     
